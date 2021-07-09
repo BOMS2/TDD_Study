@@ -10,8 +10,31 @@ import XCTest
 
 class TDDProjectTests: XCTestCase {
 
+    var converter: Converter?
+    
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        converter = Converter()
+    }
+    
+    func testConversionForOne() {
+        let result = converter?.convert(1)
+        XCTAssertEqual(result, "I", "1에 관한 convert결과 틀림")
+    }
+    
+    func testConversionForTwo() {
+        let result = converter?.convert(2)
+        XCTAssertEqual(result, "II", "2에 관한 convert결과 틀림")
+    }
+    
+    func testConversionFive() {
+        let result = converter?.convert(5)
+        XCTAssertEqual(result, "V", "5에 관한 convert결과 틀림")
+    }
+    
+    func testConversionForSix() {
+        let result = converter?.convert(6)
+        XCTAssertEqual(result, "VI", "6에 관한 convert결과 틀림")
     }
 
     override func tearDownWithError() throws {
