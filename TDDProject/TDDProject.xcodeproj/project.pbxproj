@@ -16,6 +16,9 @@
 		523382322697DCE900E92CF6 /* TDDProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523382312697DCE900E92CF6 /* TDDProjectTests.swift */; };
 		5233823D2697DCE900E92CF6 /* TDDProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5233823C2697DCE900E92CF6 /* TDDProjectUITests.swift */; };
 		5233824B2697DD3400E92CF6 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5233824A2697DD3400E92CF6 /* Converter.swift */; };
+		5287E3E626A13DD500A5F706 /* StringCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287E3E526A13DD500A5F706 /* StringCalculator.swift */; };
+		5287E3E726A13DD500A5F706 /* StringCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287E3E526A13DD500A5F706 /* StringCalculator.swift */; };
+		5287E3E926A13FDB00A5F706 /* StringCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287E3E826A13FDB00A5F706 /* StringCalculatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,8 @@
 		5233823C2697DCE900E92CF6 /* TDDProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDProjectUITests.swift; sourceTree = "<group>"; };
 		5233823E2697DCE900E92CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5233824A2697DD3400E92CF6 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		5287E3E526A13DD500A5F706 /* StringCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCalculator.swift; sourceTree = "<group>"; };
+		5287E3E826A13FDB00A5F706 /* StringCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCalculatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,7 @@
 				523382252697DCE900E92CF6 /* LaunchScreen.storyboard */,
 				523382282697DCE900E92CF6 /* Info.plist */,
 				5233824A2697DD3400E92CF6 /* Converter.swift */,
+				5287E3E526A13DD500A5F706 /* StringCalculator.swift */,
 			);
 			path = TDDProject;
 			sourceTree = "<group>";
@@ -117,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				523382312697DCE900E92CF6 /* TDDProjectTests.swift */,
+				5287E3E826A13FDB00A5F706 /* StringCalculatorTests.swift */,
 				523382332697DCE900E92CF6 /* Info.plist */,
 			);
 			path = TDDProjectTests;
@@ -264,6 +271,7 @@
 				5233821F2697DCE800E92CF6 /* ViewController.swift in Sources */,
 				5233821B2697DCE800E92CF6 /* AppDelegate.swift in Sources */,
 				5233824B2697DD3400E92CF6 /* Converter.swift in Sources */,
+				5287E3E626A13DD500A5F706 /* StringCalculator.swift in Sources */,
 				5233821D2697DCE800E92CF6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5287E3E926A13FDB00A5F706 /* StringCalculatorTests.swift in Sources */,
+				5287E3E726A13DD500A5F706 /* StringCalculator.swift in Sources */,
 				523382322697DCE900E92CF6 /* TDDProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
