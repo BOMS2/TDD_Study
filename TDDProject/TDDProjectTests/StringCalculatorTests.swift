@@ -15,7 +15,7 @@ class StringCalculatorTests: XCTestCase {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
 
-    func testAdd() {
+    func testStringCalculator() {
 //        let result = stringCalculator.add([1, 2])
 //        let result = stringCalculator.subtract(num1: 1, num2: 2)
 //        let result = stringCalculator.multiply(num1: -2, num2: 2)
