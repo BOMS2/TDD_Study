@@ -16,7 +16,11 @@ class StringCalculatorTests: XCTestCase {
     }
 
     func testAdd() {
-        let result = stringCalculator.add([1, 2])
+//        let result = stringCalculator.add([1, 2])
+//        let result = stringCalculator.subtract(num1: 1, num2: 2)
+//        let result = stringCalculator.multiply(num1: -2, num2: 2)
+        let result = stringCalculator.divide(num1: 3, num2: 2)
+        
 //        XCTAssertEqual(result, 3)
 //        XCTAssertTrue(result == 3)
         XCTAssertNotNil(result)
