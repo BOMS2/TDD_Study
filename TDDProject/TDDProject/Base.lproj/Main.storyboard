@@ -209,6 +209,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="clearButton" destination="QOl-Tg-yPf" id="0qa-JH-dlt"/>
                         <outlet property="resultLabel" destination="QZy-Ys-sVL" id="tnl-I2-5Mb"/>
                     </connections>
                 </viewController>

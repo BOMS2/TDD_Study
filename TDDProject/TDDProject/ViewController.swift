@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var resultLabel: UILabel!
+    @IBOutlet weak var clearButton: UIButton!
     
     var input: String = ""
     var fistNum: Int = 0
@@ -17,7 +18,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        clearButton.accessibilityIdentifier = "초기화"
+        resultLabel.accessibilityIdentifier = "resultLabel"
     }
 
     

@@ -9,6 +9,9 @@ import XCTest
 
 class TDDProjectUITests: XCTestCase {
 
+    let app = XCUIApplication()
+    
+    
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
 
@@ -23,12 +26,23 @@ class TDDProjectUITests: XCTestCase {
     }
 
     func testExample() throws {
-        // UI tests must launch the application that they test.
-        let app = XCUIApplication()
+//        let app = XCUIApplication()
         app.launch()
 
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        //9 존재함
+//        XCTAssert(app.staticTexts["9"].exists)
+        
+        //7눌렀을 때 7나옴
+//        let buttonLabel = app.buttons["7"].label
+//        app.buttons["7"].tap()
+//        XCTAssertEqual(buttonLabel, app.buttons["7"].label)
+        
+        //버튼 클릭한 숫자대로 result label 값이 나오는지
+//        let resultLabel = app.staticTexts["resultLabel"]
+//        app.buttons["7"].tap()
+//        app.buttons["+"].tap()
+//        app.buttons["9"].tap()
+//        XCTAssertEqual("7+9", resultLabel.label)
     }
 
     func testLaunchPerformance() throws {
